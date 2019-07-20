@@ -32,6 +32,7 @@ AC_ARCH(mips){
   ARCH_CTOR(mips) {
 
     ac_isa("mips_isa.ac");
+    ac_gdb("mips.xml");
     set_endian("big");
 
   };
